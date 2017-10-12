@@ -176,9 +176,15 @@ view: collection {
     sql: ${TABLE}.Year_Published ;;
   }
 
-  measure: count {
-    type: count
+  measure: title_count {
+    type: count_distinct
     approximate_threshold: 100000
-    drill_fields: []
+    sql: ${title}  ;;
+    drill_fields: [title]
   }
+
+
+
+
+
 }
