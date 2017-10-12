@@ -16,5 +16,5 @@ explore: collection {
 
   # Place this explore under a "Name Game" header in the explore menu
   group_label: "books"
-  description: "Looker analysis of the new releases in Spiel this year"
+  description: "My book collection"
 }
